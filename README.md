@@ -1,7 +1,7 @@
 # Bosch_BDD_object_detection
 This repo created based on object detection assignment given by BOSCH team
-## Dataset
 
+## Dataset
 - Dataset used: **[BDD100K](https://bdd-data.berkeley.edu/)**
 - Format: BDD100K comes with images and annotation files in **JSON format**.
 - Focused object classes (10 total):
@@ -26,15 +26,17 @@ Before model training, we performed a detailed data inspection and visualization
  Checked for:
  - Missing labels
  - Empty or corrupted entries
- - Duplicate or missing image IDs in annotations
-
+ 
 5. **Category/Class Distribution**  
  Analyzed how frequently each object category appears.
 
-6. **Filtered for 10 Relevant Classes**  
+- Class distribution chart  
+  ![image](https://github.com/user-attachments/assets/0be45578-e835-45b0-87a8-f78b1571fc78)
+
+7. **Filtered for 10 Relevant Classes**  
  Only retained annotations for the selected 10 object classes.
 
-7. **Visualizations**
+8. **Visualizations**
  - Bar charts for class frequency
  - Sample image with overlaid bounding boxes
 
@@ -49,23 +51,17 @@ Before model training, we performed a detailed data inspection and visualization
 ## Model Training
 
 - Framework: **Ultralytics YOLOv8**
-- 1.Without using pretrained weight file-Consider all dataset
+- 1. Without using pretrained weight file-Consider all dataset
 - 2. Using pretrained weight and
 - Perform **incremental training** by splitting the dataset into batches of 100 images.
 - Each train for 5 epochs.
-
-- Class distribution chart  
-  ![image](https://github.com/user-attachments/assets/0be45578-e835-45b0-87a8-f78b1571fc78)
-
 
 ## Project Status
 
 - [x] Data analysis completed  
 - [x] 10 classes selected  
 - [x] JSON to YOLO format converted  
-- [x] YOLOv8 training completed (batch-wise)  
-- [ ] Evaluation & Inference *(in progress)*
----
+- [x] YOLOv8 training Not completed (batch-wise)  
 
 ## Feedback
-Feel free to add comments
+You're welcome to share any comments or suggestions.
