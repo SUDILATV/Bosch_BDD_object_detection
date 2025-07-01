@@ -49,21 +49,14 @@ Before model training, we performed a detailed data inspection and visualization
 ## Model Training
 
 - Framework: **Ultralytics YOLOv8**
-- Strategy:
-- Performed **incremental training** by splitting the dataset into batches of 100 images.
-- Each batch was trained for 5 epochs.
-- The best model from each batch was used to initialize the next batch training.
-- Final model is trained on ~69,863 images across batches.
-
-## Sample Visualization
-
-*(Add your actual charts/screenshots here)*
+- 1.Without using pretrained weight file-Consider all dataset
+- 2. Using pretrained weight and
+- Perform **incremental training** by splitting the dataset into batches of 100 images.
+- Each train for 5 epochs.
 
 - Class distribution chart  
-- Annotated image samples  
-- Anomaly examples (missing boxes, duplicates)
+  ![image](https://github.com/user-attachments/assets/0be45578-e835-45b0-87a8-f78b1571fc78)
 
----
 
 ## Project Status
 
