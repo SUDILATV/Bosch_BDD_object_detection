@@ -64,7 +64,7 @@ Before model training, Perform a detailed data inspection and visualization.
 - [x] Data analysis completed  
 - [x] 10 classes selected  
 - [x] JSON to YOLO format converted  
-- [x] YOLOv8 training Not completed  
+- [] YOLOv8 training Not completed  
 
 ## Feedback
 You're welcome to share any comments or suggestions.
