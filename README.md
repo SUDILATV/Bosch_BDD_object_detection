@@ -1,5 +1,5 @@
 # Bosch_BDD_object_detection
-This repo created based on object detection assignment given by BOSCH team
+This repository was created based on the object detection assignment given by the BOSCH team.
 
 ## Dataset
 - Dataset used: **[BDD100K](https://bdd-data.berkeley.edu/)**
@@ -9,7 +9,7 @@ This repo created based on object detection assignment given by BOSCH team
   
 ## Data Analysis Workflow
 
-Before model training, we performed a detailed data inspection and visualization.
+Before model training, Perform a detailed data inspection and visualization.
 
 ### Steps Included:
 
@@ -27,22 +27,25 @@ Before model training, we performed a detailed data inspection and visualization
  - Missing labels
  - Empty or corrupted entries
  
-5. **Category/Class Distribution**  
+5. **Category/Class Distribution**
+   
  Analyzed how frequently each object category appears.
 
 - Class distribution chart  
   ![image](https://github.com/user-attachments/assets/0be45578-e835-45b0-87a8-f78b1571fc78)
 
-7. **Filtered for 10 Relevant Classes**  
+6. **Filtered for 10 Relevant Classes**
+   
  Only retained annotations for the selected 10 object classes.
 
-8. **Visualizations**
+7. **Visualizations**
+   
  - Bar charts for class frequency
  - Sample image with overlaid bounding boxes
 
 8. **Anomaly Detection**
-   To get the number of missed datas
----
+   
+- To get the number of missed datas
 
 ## Data Preprocessing
 
@@ -61,7 +64,7 @@ Before model training, we performed a detailed data inspection and visualization
 - [x] Data analysis completed  
 - [x] 10 classes selected  
 - [x] JSON to YOLO format converted  
-- [x] YOLOv8 training Not completed (batch-wise)  
+- [x] YOLOv8 training Not completed  
 
 ## Feedback
 You're welcome to share any comments or suggestions.
